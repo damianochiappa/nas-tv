@@ -35,13 +35,18 @@ Developed and tested with a Synology NAS and a Xiaomi Mi TV Stick 4K.
 
 ## Installation
 
-1. Download `NasTV-<version>.apk` from the [Releases](../../releases) page.
+1. Download `NasTV.apk` from the latest [release](../../releases/latest).
 2. Install it on the TV, for example with a file-sending app or a downloader app. Android asks you to
    allow installing apps from that source.
 3. Open NAS TV and enter the NAS address, the shared folders, your user name and your password.
 
-To check that a download is the original file, compare its SHA-256 checksum with the one in the
-release notes. Every release is signed with the same certificate:
+To check that a download is the original file, compare its SHA-256 checksum with the list below.
+
+| Version | SHA-256 of `NasTV.apk` |
+|---|---|
+| 0.1.5 | `96baf4568b7dec9e330ca7d48d7ac2c556cd080413b02f773d5d02141bae3286` |
+
+Every release is signed with the same certificate:
 
 ```
 SHA-256: C1:C6:3E:B6:B4:57:04:6B:F8:40:7F:83:2D:63:9D:CC:97:E4:AD:2F:01:1F:A6:C3:A3:3B:D8:19:09:78:48:92
