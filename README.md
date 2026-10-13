@@ -14,7 +14,8 @@ Developed and tested with a Synology NAS and a Xiaomi Mi TV Stick 4K.
   photos that show sideways can be rotated, and stay rotated on this TV.
   JPEG, PNG, WebP, HEIF, GIF and BMP.
 - **Videos**: playback with resume, subtitles from `.srt`, `.ass` and `.vtt` files next to the
-  video, choice of audio and subtitle tracks, and correct audio timing for AVI (DivX/Xvid) files.
+  video, choice of audio and subtitle tracks, and correct audio timing for AVI (DivX/Xvid) files;
+  videos that play sideways can be rotated, and stay rotated on this TV.
 - **Music**: playback continues while you browse; a whole folder (sub-folders included) can be played
   at once; songs and folders from anywhere can be played next or added to the queue, and removed
   from it; shuffle, repeat, equalizer (where the TV supports it), sleep timer, album art and a
@@ -23,7 +24,7 @@ Developed and tested with a Synology NAS and a Xiaomi Mi TV Stick 4K.
 - **Burn-in care for OLED TVs**: still screens move by a few pixels and dim after a while without
   input.
 - **Options**: hold OK (or press Menu) on any screen for the actions available there: queueing,
-  hiding, view and sort settings, and the music controls, without leaving what you are doing.
+  hiding, rotating, view and sort settings, and the music controls, without leaving what you are doing.
 - **Remote**: everything works with the D-pad; Back first returns to the top of a long folder; media
   keys control the music from any screen.
 
@@ -44,6 +45,7 @@ To check that a download is the original file, compare its SHA-256 checksum with
 
 | Version | SHA-256 of `NasTV.apk` |
 |---|---|
+| 0.1.6 | `d5901e057ab8a273b85bbfc188aa1f215066479845b643e6ba67689a752562be` |
 | 0.1.5 | `96baf4568b7dec9e330ca7d48d7ac2c556cd080413b02f773d5d02141bae3286` |
 
 Every release is signed with the same certificate:
